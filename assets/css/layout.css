@@ -31,7 +31,7 @@ p{
     transition: 0.5s;
 }
 .btn:hover{
-    background-color: #1a1919;
+    background-color: #262627;
     color: #fff;
     transition: 0.5s;
 }
@@ -301,3 +301,83 @@ footer{
     background-color: #000;
     color: #fff;
 }
+
+
+/* ======================================
+    ** Media Queries
+======================================*/
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* Slider */
+    .carousel-item {
+        padding-top: 70px;
+    }
+
+    /* Album */
+    .album {
+        padding-bottom: 100px;
+    }
+    .album-content {
+        padding-top: 20px;
+    }
+
+    /* Package */
+    .package {
+        padding-bottom: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .pricingTable {
+        margin-bottom: 25px;
+    }
+
+    /* Testimonial */
+    .testimonial {
+        padding-bottom: 0px;
+    }
+
+    /* Frequently */
+    .frequently {
+        padding-bottom: 20px;
+    }    
+    .frequently h1 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .frequentlyImg{
+        padding-top: 25px;
+    }
+    
+    /* Footer */
+    .apps{
+        float: left!important;
+    }
+  }
