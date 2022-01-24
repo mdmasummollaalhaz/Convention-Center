@@ -13,6 +13,10 @@ body{
 }
 a {
     text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #1b1a1a;
 }
 p{
     color: #6C6C6C;
@@ -72,8 +76,18 @@ p{
 }
 
 /* ---------------------
+** Album
+---------------------- */
+.album{
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+/* ---------------------
 ** Pricing Table
 ---------------------- */
+.package{
+    padding-bottom: 120px;
+}
 .hot-collection{
     position: absolute;
     top: -8px;
@@ -222,8 +236,9 @@ p{
 /* ---------------------
 ** Testimonials
 ---------------------- */
-
-
+.testimonial{
+    padding-bottom: 50px;
+}
 .card {
     border: none;
     cursor: pointer;
@@ -250,6 +265,35 @@ p{
     margin-top: -19px
 }
 
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+/* ---------------------
+** Blog
+---------------------- */
+.blog{
+    padding-bottom: 80px;
+}
+
+/* ---------------------
+** Frequently
+---------------------- */
+.frequently{
+    padding-bottom: 120px;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: 0;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #eee;
+    box-shadow: none;
+}
 /* ---------------------
 ** Footer
 ---------------------- */
