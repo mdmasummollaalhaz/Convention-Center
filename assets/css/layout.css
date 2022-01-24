@@ -250,3 +250,10 @@ p{
     margin-top: -19px
 }
 
+/* ---------------------
+** Footer
+---------------------- */
+footer{
+    background-color: #000;
+    color: #fff;
+}
