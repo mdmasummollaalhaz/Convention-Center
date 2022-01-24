@@ -236,6 +236,9 @@ p{
 .testimonial{
     padding-bottom: 50px;
 }
+.testimonialImg{
+    margin-right: 10px;
+}
 .card {
     border: none;
     cursor: pointer;
